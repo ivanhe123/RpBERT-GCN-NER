@@ -48,5 +48,10 @@ Copy the resnet152.pth model under the directory resources/models/cnn after it f
 Dowload via link: [Bert-Base-Uncased](https://storage.googleapis.com/bert_models/2020_02_20/uncased_L-12_H-768_A-12.zip).
 Unzip the package into a dir, and move it under the directory resources/models/transformers.
 After moving it to the directory resources/models/transformers, download the pytorch_model.bin and config.json manually into the directory from the [bert-base-uncased hugginface page](https://huggingface.co/bert-base-uncased/tree/main).
+
+### Downloading the dataset
+The twitter2015 paper: [(Zhang et al., 2018)](http://qizhang.info/paper/aaai2017-twitterner.pdf).
+
+The [dataset](http://qizhang.info/paper/data/aaai2018_multimodal_NER_data.zip) need to downloaded and unziped. Then change the name into "twitter2015". Then go into the directory and change the directory containing all the images to "images". After all this, move the directory under the path: resources/dataset.
 ### Training
 To train, run train.py. An example on how to run the model is at the file main.py
